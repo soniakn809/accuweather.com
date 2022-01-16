@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		snippets = SnippetType.CAMELCASE,
 		plugin= {"html:target/reports/my-report.html",
 					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-		dryRun=false
+		dryRun=true
 		
 		)
 
